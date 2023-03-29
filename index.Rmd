@@ -1,5 +1,5 @@
 ---
-title: "Pre-Registration Assignment Common Questions and Answers"
+title: "Thinking about a Masters"
 output: 
   html_document:
     toc: true
