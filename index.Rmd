@@ -1,0 +1,427 @@
+---
+title: "Pre-Registration Assignment Common Questions and Answers"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+    toc_depth: 3
+    number_sections: false
+    theme: "readable"
+    highlight: "espresso"
+---
+
+<style>
+h1:not(.title), #TOC > ul.tocify-header > li:first-child {
+  font-weight: bold; 
+  color: green; 
+}
+
+h2, #TOC ul.tocify-subheader[data-tag="2"] > li.tocify-item {
+  color: blue; 
+}
+
+h3, #TOC ul.tocify-subheader[data-tag="3"] > li.tocify-item {
+  color: purple;
+  font-variant: small-caps; 
+}
+
+body{
+  font-family: Arial;
+}
+
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# This blog
+
+This document was last updated on `r Sys.Date()` and is a series of questions and answers relating to the Pre-Registration Assignment taught in our MSc Research Methods course. 
+
+**Please note:** if viewing this blog on a phone, use landscape orientation rather than portrait for better functionality.
+
+# General Questions
+
+### What is Pre-Registration?
+
+As part of improving the published research that comes out of Psychology, following the reproducibility and replication crisis, was the drive to encourage people to pre-register their studies. In short this means that people write out in advance what they plan to do, why they plan to do it, and to note as many of the decisions they will make in advance of actually running the study. Here in this assignment we want you to use your knowledge and skills to do a pre-registration and to think about, decide, and justify your decisions in advance of running and writing up a full analysis
+
+### What does "justify your decisions" mean?
+
+Justify means to effectively state why you are doing something and to give support to that decision in advance if possible. For instance, with a really rough example, it is the difference between just saying, "We hypothesise that....." versus "Based on previous research which showed.......(citation, citation), we hypothesise that....."  The second example has support and shows justification. The first example merely states what you are doing. Pre-Registration is better when it is justified where possible.
+
+### Doesn't a pre-registration box you into doing what you state? And what if I think of something after the pre-registration and want to do that in the final study?
+
+Pre-Registration is not meant to be seen as a prison or a hole you can't escape from. It is just about being transparent with what you are doing. That means that if something goes wrong with the data or you think of something after the pre-registration, that is totally fine - you just state that in the final report and state what you did and why. So you can change things after; you just need to justify why.
+
+### Within our Project Group how many Pre-Registrations should there be?
+
+One. Within your group you should come together to complete the one pre-registration document that looks to address the research question and hypothesis that you as a group have decided to explore.
+
+### Does every member of the group have to write a section of the Pre-Registration document?
+
+No. How you work within your group and how you come together to produce the final document is up to you. Perhaps two are more comfortable doing the coding and they will work on that bit, and the others work on the writing. Or even perhaps one person does the writing and the rest generate and build ideas. In the end this is a group submission and as a result the group gets the grade  - meaning everyone within the group gets that grade. One thing to note though is that it might be worthwhile in advance having a discussion about how you will as a group make final decisions and edits; how will you agree what is the final draft? Everyone in the group, when the final assignment is submitted, is agreeing with what is being submitted, so it is important that if you do not agree with something you discuss it with your group before submission. And to add to that last point, you will write an individual full report on this topic as well so it is best to be aware of all of the decisions and reasoning now and as you go along!
+
+### The documents state a minimum requirement in terms of tests, but can we do more than that?
+
+In theory, if you are confident you can of course do more. However, we would advise against doing more than required or, going even more tangential, doing an analytical approach we have not covered yet. Research is not about being complicated. It is about a simple study done well. More analyses or more complicated analyses tend to take more words and more space as you need to justify more decisions. Here we would advice sticking with just what is required.
+
+### When is the deadline again and what are the marking criteria?
+
+Best to check the Assessment Information Sheet on Moodle. We believe it is better to have one document that has correct information rather than multiple documents having conflicting information so we will keep that answer to the Assessment Information Sheet.
+
+### Should we use APA citation and reference format?
+
+For this assignment, all citations and references should follow APA guidelines in terms of order and structure although you do not need to indent the reference list or add italics or bold (as you have not covered this yet); references should however be in alphabetical order by first author for example and not bullet pointed.
+
+### Can we write sections in bullet points?
+
+In short, no. One of the marking criteria on the Assessment Information Sheet states "Write clearly and succinctly with appropriate use of paragraphs, spelling and grammar." As such each section should be written clearly using paragraphs and sentences. It is ok to use bullet points when you are first sketching sections out, as placeholders or "thought holders", but the final submission should not have bullet points as the answers to the first five questions.
+
+### So do we just write our responses/answers to the five questions in the Rmd file?
+
+Yep. Exactly. You should put your answer to each question in the space below each question. So it would look like:
+
+1. Present a concise evidence-based rationale, for the current study, along with your research question and hypothesis.
+
+{your writing goes here}    
+
+2. Describe the key variables, specifying how they will be measured, how many levels they have (if relevant), and how participants will be assigned (if relevant).
+
+{your writing goes here}
+
+You can of course work in a different format and copy and paste your responses into the .Rmd file if that works best for you but all responses, etc, must be in the submitted .Rmd file.
+
+### Can we use abbreviations?
+
+Abbreviations are really not great for readers - they are only good for writers in that it helps them save space. For a reader it creates a high cognitive demand as they try to remember what the abbreviation stood for, ultimately distracting them from reading and understanding what you are writing - an example here might be using SE for Self-Efficacy and IM for Intrinsic Motivation. Taking this approach makes the writing very hard to understand and we would discourage it at all times. The exception here is questionnaires (e.g. MSLQ) and well-known techniques or methods (e.g. MRI, MEG, EEG) but remember to state the phrase out in full in the first instance.
+
+### Can we use quotations from previous work?
+
+Technically this is allowed but would be better if you didn't and just rephrased the writing in your own words. For one, quotations change the tone of the writing from your tone to that of the other writer. More importantly, when you use a quotation, and don't go into depth about the meaning of that quotation, you are relying on the reader getting the exact same meaning from the quotation that you did but they are only getting the quotation out of context. A much better approach then is to restate the meaning so that it fits and flows with the surrounding context of your writing.
+
+### Should we use do not or don't?
+
+Do not use don't and other such shortenings like can't and shouldn't. Instead use do not etc. Remember academic tone!
+
+### What will we be asked to submit for the Pre-Registration?
+
+Full submission details will be made available on the submission page when we open it but part of the submission will include submitting:
+
+a. Your completed Pre-Registration .Rmd file
+b. The knitted word document that comes out of your completed Pre-Registration .Rmd file
+c. A copy of the data used for the pre-registration code
+d. A group submission document - that basically has your group number, date, word count, GUIDs and a title
+
+We need the word document to supply feedback on what you have written and we need the code and pilot data to check that your code works. Please note that only one person should make the submission - the submission will automatically be attributed to everyone in that group.
+
+### Can we edit the word document after knitting it?
+
+Please don't as the first thing we will do is check that your .Rmd file knits, which in turn will overwrite your word document. All information should be in the .Rmd file basically.
+
+### If you are going to check the .Rmd file knits then why do you need the word document?
+
+Simply so we can still give feedback on the writing if the .Rmd file does not knit.
+
+### What might be a good title for this assignment?
+
+A couple of examples might be things like:
+
+* A pre-registration analysis of the relationship between self-efficacy and test-anxiety.
+* A pre-registration analysis of the effect of level of study on test anxiety.
+
+### Can we still work on the coding part as group when we have the full dataset?
+
+Yes. We believe in supporting each other so there is no issue here. For the final report we won't look at the code as part of the assessment, we only look at it when something is not clear - to help us understand better - and to just make you used to having others have access to your code. The code is only part of the Pre-Registration in terms of being assessed. The code is not part of the final full report assessment. As such you are more than welcome to continue to collaborate on the code together after the pre-registration if you find that helpful.
+
+### When will we get the full dataset?
+
+This would hopefully be two to three weeks after the submission of the Pre-Registration and around the time when all the feedback and grades are released. We need to hold off to allow people with extensions the time to submit as well and to keep the same learning environment of not having seen the full dataset before submitting the Pre-Registration. We will however be sure to let everyone know as soon as it is available.
+
+### How does the pilot data relate to the full data?
+
+The pilot data is basically the first few participants of the full data - the first 10 or 20 basically. The full data will look just like it but there will be a lot more participants including the pilot participants.
+
+### How big is the full dataset?
+
+We are not entirely sure as we have been collecting data on this for 2 or 3 years now. We just give you everything we have up to the date that we make the full data available and it usually turns out to be a very large number of participants! We actually deliberately do not know the size of the full dataset or the breakdown of people within the dataset to help give a more authentic experience of research - you can only plan for things and then adapt where needed.
+
+### Can we get a summary of the data?
+
+You will actually need to create this for the full report so we when you have the full data you can make any summary you like. If we give it to you prior to completing the pre-registration it will defeat the purpose of the pre-registration.
+
+### Why the MSLQ in the first place?
+
+With these assignments we are aiming to cover a variety of different elements - teaching research methods and statistics, teaching academic writing, teaching planning and design, giving some snapshot of what it is like to work with real data - but at the same time cater to the interests of a large diverse population (yourselves). The MSLQ study is nice in that it covers a range of topics and areas and it is something that we think you would all be interested in, to varying degrees, given that you have chosen to do this course - i.e. perhaps reflecting on your own reasoning might help generate questions and ideas for your discussions. There is also good research to suggest that working with real data in an area of interest is a good approach to making research methods accessible. Unfortunately we can't just have everyone run their own project as there is a lot of knowledge and skill to develop first, not to mention ethical considerations. Hopefully though by the end of the process you see the benefits of the approach we use and that the a lot of the knowledge and skill you get from this project you can take forward into future assignments and into future projects.
+
+### What year and how was the data from the MSLQ collected?
+
+In reality the questionnaire was opened to predominantly in Level 1 (First year undergraduate class) and MSc labs, and students were asked to complete it as part of their course. Originally they could also send the invite to others meaning that we can’t guarantee that everyone was in the University of Glasgow. It was also left open on the main experiment page so others could do it as well. 
+
+In terms of when data collection started, there is a data-stamp on the datafiles that can indicate when first data was obtained but it is approximately early in 2020.
+
+### Is there an exemplar of a complete submission we can look at?
+
+There is actually a few reasons behind us not doing this:
+
+1. The first is plagiarism. We strongly encourage students to never share a full draft of their own writing as this can lead to plagiarism, either deliberately or accidentally, and at MSc level that is really not worth it as it would mean directly being sent to Senate. As part of that we, in this module, would not give out full examples as part of good practice.
+2. In reality it isn't really an effective form of learning. Instead, looking at different standards and talking about which work best in terms of the desired skill and knowledge we want people to develop on the course is the best approach. In the materials we show examples of how to start answering parts 1 and 5, and we have added some discussion as to what makes one better than the other but we of course encourage more discussion both within groups and on the channel. Using the guidance on what is required in each question along with having discussions on what makes better replies to parts 1 and 5, should give you a good basis to start answering the other sections. Finally, don't forget about the real world examples of pre-registrations to help develop the ideas ([https://osf.io/registries](https://osf.io/registries){target="_blank"}) and you can definitely use any of the code that is required in the Quant Fun book. 
+
+All in, we are scaffolding development of knowledge and skill on how to answer these questions, and write reports, but staying within the limits of protecting people from increasing the risk of plagiarism. Hopefully that makes sense!
+
+# Research Questions & Hypotheses
+
+### What is the difference between a Research Question and a hypothesis?
+
+A research question is really just the overarching question to your study, what you want to know, whereas the hypothesis is a clear, testable, falsifiable, operationalised statement about what you think will happen in the study. For example, "Is there a relationship between intrinsic motivation and engagement with peer assisted learning in a student population?" is a research question, whereas "We hypothesise that there will be a significant positive relationship between between intrinsic motivation and engagement with peer assisted learning in a student population, as measured through the MSLQ" is a hypothesis. The research question shown can't be falsified as it is unclear as to what would constitute a relationship and there is no indication in terms of how the variables are measured. The hypothesis shown however can be tested and can be falsified - in that there will either be a significant positive relationship or not - and it is operationalised by saying that the variables are measured through the MSLQ.
+
+### When stating a hypothesis, do we have to specifically say "we hypothesise..."?
+
+No. But it helps. Very roughly, the brain works on schemas and primers - or it can do at least. It is why signs are so effective. So when it comes to stating your hypothesis, stating "we hypothesise....." is a clear sign to your reader that this is the hypothesis. You can use other words of course but if a sign works then why change it? If you use an unclear sign to your hypothesis then your reader might not clearly spot your hypothesis and this will make the reading harder for them.
+
+### How many hypotheses should we have?
+
+Assuming you are confirming a previous idea, there should be a clear hypothesis for each inferential test that you will run. So if your paper runs one correlation then one hypothesis. If your paper runs one t-test then one hypothesis. And a paper that runs three t-tests, two correlations, etc should have a matching number of hypotheses. We would not encourage such a complicated study though!
+
+### We were thinking about running two correlations so should we have two hypotheses?
+
+First we would ask you if you really need to run two correlations here. If it is about showing complexity then don't. If it is about answering a specific research question then read on.
+
+In this situation there would likely be two hypotheses and we would encourage you, when writing your hypotheses, to see them and write them as two separate hypotheses.  "We hypothesise that there will be a relationship....... Secondly, we hypothesise that there will be a relationship......".  Writing like this will help you keep on track of things - particularly thinking forward to when you write the Results of the full study later in the semester. In the Results section, after running the inferential test/s, you have to say whether you accept or reject (or retain) the hypothesis of the test you are running.  If you have two hypotheses then it is easier on your head because you just look at each one and say "ok I accept that one but I reject that one" or whatever the case may be.  If however you have the hypotheses as one sentence and you start seeing it as one hypothesis, if you get a significant correlation and a non-significant correlation, for example, you may get confused and start giving an awkward outcome of "well we sort of accept that part but not that part so we partially accept".  But there isn't really a method of partially accepting a hypothesis and probably means the hypothesis was badly worded to begin with. So long story short, two hypotheses written as two setences is potentially better than two hypotheses written as one. But if you use one sentence, make it clear to yourself and your reader, that it is two tests and two hypotheses.
+
+### How many research questions should we have?
+
+This depends on your writing. In reality there is no one-to-one mapping of research question to analytical test and as such you could have one research question that covers a number of tests - "is there a relationship between X and Y, and is this affected by whether participants A or B" - or you could have a specific research question that fits specifically with one individual hypothesis. Here, in this assignment, we would encourage one research question and one hypothesis.
+
+### What is meant by rationale/justification of a study?
+
+In short, this can be answered as "why bother doing this?" or "what do we learn from this study?". The justification/rationale is really based on your reading of previous literature and often it is driven by you spotting a gap in the research, an unanswered question, some debate in outcomes, or even just replicating a previous study as replication is the bedrock of science and previous research had issues of methods or approach. For example, for a period of time voice research on societal biases focused a lot on just male voices and little was known about female voices. Rationale for carrying out research into female voices then could be justified as how females are impacted by societal biases based on their voice is unknown and by knowing that we can start to address issues face by females. Alternatively, voice research uses two approaches for obtaining responses in research  - a rating scale and a forced choice task - however it has been noted in findings that the two approaches give different and opposing findings so doing a test to specifically compare the results from these approaches is beneficial because then we know which data is best to use. So there are lots of rationale/justification for carrying out studies and these are just a couple of examples.
+
+### What would be a poor rationale for a study?
+
+A poor rationale would be one that is not based on previous research or the link to previous research is unclear or when there is no clear justification stated. For example, let's say that all previous research on test anxiety is carried out in undergraduate students. You spot this, point this out in your writing and decide to do a study that compares postgraduates and undergraduates but don't state why. That would be weak justification because you haven't given any reason as to why test postgraduates. Even if it is just to find out if test anxiety replicates in postgraduates then that would be better than stating nothing. Even better would be to go deeper and think about, and state, what it would mean if test anxiety does replicate in postgraduates (e.g. measures are needed at all levels for additional support) or doesn't replicate (e.g. something about age and experience helps reduce test anxiety). In short though, the better rationales are the ones that clearly show the point of the research and what we learn from it in terms of understanding how things work.
+
+### Should we have a directional or non-directional hypothesis?
+
+In reality you can have either but it makes sense to base your decision around the previous research. For example, if previous research suggests that there is going to be an effect and it will be in a specific direction, e.g. a positive correlation, then it makes sense to hypothesise a positive correlation. If previous research suggests a negative correlation then it would make sense to hypothesise a negative correlation. If however, previous research is a bit uncertain with some findings suggesting a positive relationship and some suggesting a negative relationship, you could perhaps suggest a non-directional hypothesis. The alternative way to think about that is imagine you spend the whole introduction saying that all previous research suggests a negative relationship so you will test for a positive relationship, then the reader is going to be very confused!
+
+### Related to rationale in the first question, should we have one large paragraph or two smaller paragraphs with the first focussing on previous literature and the second focussing on the current study?
+
+Really up to you and your group what works best for your question and your writing. The one thing we would say is that if you go with two paragraphs then remember the should flow together and should be linked, as they are all part of the same pre-registration and not completely different sections - meaning that you don't have to repeat yourself and you probably want to think about the linking sentence at the start of the second paragraph to keep the flow of the writing going. This blog is nice on writing paragraphs: https://medium.com/advice-and-help-in-authoring-a-phd-or-non-fiction/how-to-write-paragraphs-80781e2f3054 (but don't worry too much about the very specific word count the blog suggests on paragraphs)
+
+### If we spot an issue with our Pre-Registration after submitting it and then change it, would that be HARKing?
+
+HARKing is literally "hypothesising after the results are known"; meaning that you run an analysis on your data, look at that output, and then write the introduction and the hypothesis as though that was what you predicted all along. If however you write a Pre-Registration and then after that you do more reading and/ or new literature comes out before you actually complete your own study or analysis and based on new information you decide to change your Research Question or hypothesis slightly, you aren't actually doing anything wrong and in fact it would make sense to base your hypothesis on all available information. It would however still be ethically advisable to acknowledge that fact, i.e. somewhere in your report you would mention that you initially hypothesized X but after further review of the literature you amended your hypothesis to Y. This way you are being open and transparent. So long story short, changing your hypothesis based on further reading but BEFORE running an analysis or even looking at your data is completely fine. However, changing your hypothesis based on what you found in your analysis to make it look like that is what you predicted in the first place is definitely HARKing and should not be carried out.
+
+# Methodology
+
+### One of the questions says to mention how Participants responded and I am not sure what that means?
+
+Here that would mean what sort of scale did they respond on - i.e. maybe a 5 point Likert scale where 1 meant that they strongly disagreed and 5 meant that they strongly agreed. In the Pre-Registration this question is really asking about the scale that participants responded on, so you are looking to talk about the scale, as opposed to talking about how participants physically responded. You can of course mention that they used the mouse to select an appropriate answer if you have space but that is not really needed here and more the focus is on the type of scale and highlighting the extremities of the scale - "Participants responded using a ....... where 1 meant ......." That sort of idea. If you are unsure about the scales and what they looked like you can run the study again and just don't put any responses in so that your data will be removed.
+
+### What about when it asks about the min and max scores?
+
+So again this really relates to the scale as remember when doing the Pre-Registration you don't know what the descriptive statistics will look like. So here it is really asking what is the minimum and maximum achievable score on your scales. You might want to relate this to how scores for each participant are calculated (e.g. all responses summed, or an average) and if you happen to have read anything about group norms then you might include that here as well. But really it is just asking about the potential maximum and minimum score of the scale, e.g. 0-40, 1 to 7.
+
+# Analytical Decisions
+
+### Do we need to reverse score the appropriate variables on the MSLQ?
+
+No. Some of the questions on the MSLQ are meant to be reverse scored but you do not need to worry about this as it is done for you in the study we run - in the programme. The data you get is ready just to be summarised and does not need to be reverse scored. If you did reverse score the data we give you that would be undoing what needs to be done and would give you misleading results. So no reverse scoring needed here.
+
+### Is there a good way to check for someone who responds the with the same answer to each question?
+
+One approach here would be to calculate the standard deviation of each participant. Anyone with a standard deviation of 0 or NA for their responses have responded with exactly the same answer to each question. For example, someone who responds 3, 3, 3, has a mean of 3 and a standard deviation of 0.  There are other approaches but that is potentially the quickest. One thing to note though is that some refer to this response pattern as "straightlining". Not all fields use this terms so it would be good to explain what the term means if you use it - e.g. "Straightlining, meaning that.... (citation), will be detected by...."  However, it is also worth considering that this will not work for people who consistently gave a score of any other value other than 3 due to the reverse scoring. They will all have a specific standard deviation as well but it might take some figuring out.  Alternatively, you can also consider whether or not there is anything to suggest that those are not the real answers of participants and whether or not they should be removed in the first place. There is not really a correct answer, just a justified answer.
+
+### What are the assumptions of a t-test or a correlation?
+
+The assumptions of a test are the characteristics of the data that should be checked and verified before running an analytical test on it to ensure that the output of the data can be considered valid. The assumptions of the different tests are in the Fundamentals of Quantitative Analysis book so you could refer back to the specific chapters to remind yourself: https://psyteachr.github.io/quant-fun-v2/
+
+### When talking about assumptions and tests, do we just state what the assumptions are?
+
+Go beyond this and state how you will check them. It isn't enough just to tell a reader what the assumptions of a test are as they probably know that and could just look that up in a textbook and that is not the point of a pre-registration. The pre-registration is you saying what you will do. So try to state what the assumptions are and how you will check them. There is a variety of methods covered in the Fundamentals of Quantitative Analysis book. You do not have to use every single one but you would want to use enough to cover the assumptions.  To give a comparison, it is the difference between "The assumptions of the test are X, Y and Z" and "We will check the assumptions of X and Y through visualisations and Z through...."
+
+### Is it ok to just use visualisations to check assumptions or should we also use analytical tests?
+
+There is a lot of debate here but for now it is perfectly acceptable to just use the methods and approaches we have shown you in the Fundamentals of Quantitative Analysis book. In short, visualisations is fine as long as you state what you are doing - scatterplot, boxplot, etc. One thing to note however is that analytical tests such as the Shapiro-Wilks are not great for large samples (and potentially not great for small samples either) and sometimes visualisations are better than all other options despite being subjective.
+
+### Should we use residuals for assumption checks?
+
+Ideally you would use residuals and this is what is shown in the t-test chapter of the data skills book. The correlation chapter just uses the raw data as we had not yet introduced residuals by that point but it mentions that it is better to use the residuals. However, please note that for this assignment it is totally fine to stick to what the book actually shows you  - i.e. it would be fine to use the original data for the correlation and the residuals for t-tests. If you would prefer to use the residuals for the correlation then one approach is:
+
+```{r, eval = FALSE}
+# setting up a dataset with two variables
+dat <- iris %>% select(Sepal.Length, Sepal.Width)
+
+# creates a model of the relationship between the two variables
+mod1 <- lm(dat$Sepal.Length ~ dat$Sepal.Width)
+
+# visualises the linearity of the residuals
+plot(mod1, which = 1)
+# visualises the normality of the residuals
+plot(mod1, which = 2)
+# visualises the homeoscedasticity of the residuals
+plot(mod1, which = 3)
+```
+
+Ideally the linearity plot and homeoscedasticity plot would show a straight line in the middle of the data points, and the normality plot would show the data points along the diagonal.
+
+### What are residuals again?
+
+Really residuals are the difference between two data points. For a t-test, it is the difference between a participants individual score and the mean score of the sample. In that example, if someone has a large residual then their data is far from the mean score; low residual would mean their data is close to the mean score. 
+
+For correlations, it is the difference between the plotted score of the two variables and the line of best fit - or really, the difference between the predicted value of Y (line of best fit) and the measured value of Y (original score) for a given value of X. 
+
+### How do you check linearity through plots?
+
+When using the raw data the best plot here is usually a scatterplot with a line of best fit. There is a good example of this in the Fundamentals of Quantitative Analysis book. You are looking to see that the data points are captured by the line of best fit - where captured really means something like that line is cutting the data in half with an equal spread of points above and below the line.
+
+### Is the data from the MSLQ ordinal or interval?
+
+There is a very grey area in research here when using scales like the MSLQ as to whether it is treated as ordinal or interval. As this is still a learning process we are happy for people to take either stance. Note though if you say the data is interval (or could be considered interval) then you analyse it as interval data. If you say the data is ordinal then you analyse it as ordinal. You can't say in a paper that the data is ordinal but we will analyse it as interval as that doesn't make sense. It is ok to take a stance here and say we are treating the data as interval and therefore the assumption of interval data holds. It is even better if you can justify it with a paper such as "based on.......we are treating the data as interval.....". Perhaps look at some previous papers using the MSLQ to see what they did  - the original paper calculated Means and Standard Deviations on the scales for example and are as such treating it as Interval. But again this comes down to justifying your decisions and showing support for them through citation. 
+
+### How do we know if data is paired or independent?
+
+This is really about understanding the design of the study. Paired means that the two data points come from the same participant. Independent means that the two data points come from different participants. So comparing females vs non-binary is independent because the data comes from two different sets of participants. Looking at the correlation between participants' Intrinsic motivation and test anxiety is paired because you have data from participants on both scales. So some assumptions are about just restating the design and some are about checking the data.
+
+### What do we do if the assumptions of our test are violated?
+
+The Pearson correlation and the Welch's between-subjects t-test are parametric tests that rely on using the means of the raw data and are based around the Normal distribution. They have a number of assumptions about the data that should be checked and met (or verified) before being used. If the data does not meet the assumptions then it is likely you would use the non-parametric version of the tests or some other alternative. In this assignment, the most likely alternatives would be the Spearman rho correlation (a non-parametric alternative to the Pearson) and the Mann-Whitney U-test (a non-parametric alternative to between-subjects t-tests). That said, there is a degree of accepted violation in assumption tests and there are a number of papers that might suggest skews, for example, are not that much of a concern assuming the sample is large enough. Again try to build in citations to show support when you can.
+
+### Do we have to justify using t-tests and correlations with citations?
+
+This depends on what you are saying. If you were to say for example that we will first check all assumptions of the pearson correlation and if the data is verified then we will use the Pearson correlation, that does not need a citation as that is standard procedure. If however you say we will check the assumptions of normality, linearity, homoscedasticity, and outliers, and even if they are all fine we will run a spearman correlation, then you would want to give some justification and citation to support it as that is stepping away from the standard approach. Again, comes down to what are you using the citation for. 
+
+### Do we need to justify using a Students between-subjects t-test or using Welch's between-subjects t-test with citations?
+
+Student's between-subjects t-test is still the norm in the field so we would probably put a citation to justify using the Welch's between-subjects t-test over the Student's between-subjects t-test. This paper can help: https://www.rips-irsp.com/articles/10.5334/irsp.82/
+
+### How can we determine outliers?
+
+There are numerous ways to determine something as an outlier - such as using a boxplot or using 2 or 3 SD from the mean value or giving a response that is really far from other participants - but they won't always apply to your data so it is up to you as a research team to decide what is an outlier for you. As Chelsea Parlett-Pelleriti says in this tweet - [https://twitter.com/ChelseaParlett/status/1438506708939116556?s=20](https://twitter.com/ChelseaParlett/status/1438506708939116556?s=20) - "We get rid of outliers when their extremeness indicates they are not part of our population, we do not get rid of them solely because they are extreme." In short, you as a research team decide what an outlier is based on your reading of papers and what you are thinking and discussing in your groups. Alternatively, if yous decide nothing is an outlier then state that and justify it. This is one paper that shows a whole plethora of ways to find outliers and we am showing it just to show that there are too many ways to list - what is important in your writing is why you state the approaches you do: https://journals.sagepub.com/doi/10.1177/1094428112470848. And it is similar idea for other exclusion criteria - for example, if you think someone who gives the same response to every answer is genuine and you want to include them then that is fine. If you think they are cheating and you want to exclude them that is also fine. The key thing is being able to support your decision with rationale and citations if possible.
+
+### What reasons can we use to include or exclude data?
+
+First, you do not have to think of everything. Nobody can. You do want to try and think the experiment through though - what might people do/respond that means they are excluded/included. Perhaps even try the study again and think about this as you are doing it. Regardless of what you decide, try and include justification/citations for aspects where needed.  Let's say your test is to look at Undergraduate vs Postgraduate, you don't need a citation to exclude anyone who has not responded to that question, you would just state that you only include people that label as postgrduate or undergraduate. If however you want to remove anyone who responds the exact same answer for every question in the questionnaire then you would try to give a citation for that as there is debate as to whether that is a valid removal or not. See the distinction? One is just what you are studying. The other is a decision you have made that may impact the outcome of your study.
+
+### Any good tips on how to come up with exclusion/inclusion criteria?
+
+One way to get an idea about exclusion/inclusion criteria is reading methods sections of papers that have used the same questionnaire as you, or a related questionnaire, or just ran the study in a similar fashion (online studies)For example: A paper from members of our team: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0204991#sec002 where we removed people based on responses.  Or a paper by other members of the team where they stated there were no exclusion criteria: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214261#sec002 Or a paper that states they exclude based on the completion of tests: https://www.frontiersin.org/articles/10.3389/fpsyg.2021.761580/full#h7 So there is a whole range of reasons to exclude or include people. Again it isn't about listing everything. It is about trying to think about what might be relevant to what you are studying.  We are not looking for an exhaustive list. Instead it is about justifying the decisions you do make. Much of research is thinking forward so it would be worthwhile spending a bit of time brainstorming with your group on things you have read and potential inclusion/exclusion criteria.
+
+### So can we really say no score is an outlier as long as it is valid?
+
+Yes but even better if you can find a citation to support your decision - perhaps there is work out there that argues this exact point that all values on a scale are valid so should be included or even says they took this same approach. There might not be but there might. The point is really just trying to support your decisions where possible. You won't find a citation for everything but that doesn't mean you shouldn't try first.
+
+### If we are removing outliers based on 3 SD (i.e. a z-score above 3 and below -3) would I need to cite this? 
+
+If you can find a citation for this then it is better to include it than not - and that is really true of all decisions you make. A citation for this would be a paper that suggests this is an acceptable approach to outliers or one that uses this approach to remove outliers in a related study. Long story short though, if you have a citation for a decision then use it.
+
+### Should we exclude students who did not answer all the questions related to the variables even if we are calculating the mean (not the sum) of the scores?
+
+There is really no right or wrong approach here and again it comes down to justifying what you are doing if possible. Some would say you should remove them, some would say you shouldn't, and some would say it depends. A couple of things to think about. How many questions could a participant acceptably miss and still give you valid data? If they miss one question is that ok? What about 1%, 5%, 10%, 20%, 80%? Basically, what is the acceptable miss rate and what is unacceptable? Clearly the more they missed you could argue that they were not paying attention. Alternatively, perhaps they didn't want to answer for some reason. Either way you have to decide if that data is useful to you or not. On the flipside, how hard is it to get your participants? If your sample is going to be small in the first place, if you then have a rule about removing everyone that missed one question then you might be reducing your sample even more. So there really is a variety of different ways of working here and taking a stance one way or the other is fine. In future studies that you run you might want to think about adding attention checks into the study to make these decisions ever so slightly easier.
+
+### Do we always have to justify why we are excluding a demographic group?
+
+So for example, say you were wanting to test males vs females and therefore exclude anyone that does not identify as male or female. In this situation you would probably not need to really justify excluding those that don't identify as male or female because it is inherent to the study that you only test those that identify as such. Here instead we might just explicitly state that as the research question is specifically about male versus female then we will only include people that self-identify as such. That is fine. The one thing however you might want to make sure you do is add some rationale/justification to the Pre-Registration (most likely in Question 1) as to why you are just looking at male versus female - perhaps for example that follows what others have done so far so you are building on that work.
+
+### Can we relabel demographic criteria?
+
+The answer is yes but can you justify it and can you explain it. A rough example would be say you want to split students into mature vs traditional based on age. So one approach is to just take all the ages and say, randomly, anyone below this age is traditional and one above this age is mature. That is not a brilliant approach as there is no support or evidence to back it up. A better approach would be to say something like, "We will categorise everyone below the age of ..... as traditional and everyone above that age as mature, based on ........." and in that last part supplying some support through citation of research or standard procedures at a given University or funding body.
+
+### Is it ok to use courses as a demographic variable of interest?
+
+Yes but it might give you a lot of issues but as long as you are comfortable with that then that is fine. This was a free response answer, meaning that people wrote in what they liked. Say you wanted to use Psychology students only - some might write Psychology, Psych, psychology, psych, or any other spelling of Psychology given how hard it is to spell. And then over and above that, many might have just skipped this question as they couldn't be bothered writing when everything else can be done by the mouse. So in short, yes you can do this but it might take a bit of extra effort.
+
+### Is it bad practice to remove a large number of participants to fit a criteria?
+
+In this study/assignment it would only be bad practice if you can't justify your criteria  - for instance, doing a study just on non-binary people will remove a lot of data but that is fine if you justify why you are just looking at non-binary (most likely in Question 1 of the Pre-Registration). In future studies that you might run yourself it would be better to not capture data from people and on variables that you were not interested in and you would plan restrictions on how you collect your data to prevent this.
+
+### What is the best way to determine an effect size for the power calculation?
+
+Deciding on an appropriate effect size to use in the power calculation is at the researchers discretion and there are different ways to determine what value to use. You essentially need to decide what is the smallest meaningful effect size you are actually interested in and there is no set answer to that; one  common approach is to look at the existing published literature and see what is the average size that is reported when investigating your topic. Certain research areas are typically only interested in at least medium to large effect sizes/ correlations, since they argue that anything smaller is of no practical value. Other research areas may be interested in smaller effect sizes, since they might argue that even though the effect is small, if it is consistent and statistically significant then over time these small effects can have a cumulative effect. So it really depends on what you are investigating, what is common in that area, and what you think you might actually be interested in. The best approach is always to justify your effect size - "Based on ....... we will explore......." - but just to reiterate there is no real one correct answer and it is purely about justifying the decision of the effect size in some way. Again, remember the citations to support what you are saying.
+
+### How many effect sizes should we be looking to mention in our Pre-Registration? 
+
+One effect size for each test you run is the normal thinking. So if you run one t-test then it is one effect size of interest. Please note that if you run more than one correlation and more than one t-test then that would require more effect sizes. Again it is one effect size per test. It may be the case that if you run more than one t-test then each t-test you are interested in has the same size of effect, so they are all d = .4, for example, but just be sure to make that clear in the writing that you are acknowledging an effect size for each test. For example, "all tests were based on...." and again try to give citations to support why you are working towards a given effect size.
+
+### Where can we find out more about superiority scores of Cohen's d?
+
+This comes from the exceptional webpage: https://rpsychologist.com/viz and in particular the Cohen's d visualisation. To be honest you do not see this in papers and it is not expected that you use it. That said if you want to include it as you think it helps then you can. Instead it more just helps think about what an effect size means.
+
+### Can you convert one effect size into another - e.g. Pearson r into Cohen's d? 
+
+Actually you can, and often a quick search on google, e.g. "Pearson r to Cohen d", will show you some options. One good site is: https://www.escal.site/ The reason this is possible will become evident in future years of study but, in short, a number of the inferential tests that we use (t-tests, correlations, ANOVAs, regression) are all part of the General Linear Model, and the output of one can be converted into another, and as such one effect size can be converted into another. 
+
+### Should we test one-tailed or two-tailed? And is this not the same as directional and non-directional hypotheses?
+
+There is some debate here but we will give you one perspective. So it can help to separate, in your mind, hypotheses and the tails of a test. They are related but not the same thing. The hypothesis is what you predict, and the tails relate to what you actually test. So you can predict a directional effect (e.g. a positive correlation in your hypothesis) but when it comes to running your test you can still test one-tailed or two-tailed. This is not a problem and it is not cheating. A lot of research probably still states a directional hypothesis but will test with a two-tailed test. Reasons for this include skepticism of one-tailed tests due to previous misuse of them in research but also the two-tailed test allows you to be wrong in your prediction and to still find an effect if there is one to be found. If you test with a one-tailed test then you can only look for an effect or relationship in the direction predicted - predict a positive correlation and can only look for a positive correlation. That is fine if the relationship was positive, but if the relationship was negative then you can't ever find it. You have missed it. If you predict a positive relationship, test two-tailed, and it comes back that the relationship was actually a negative relationship, you can still find it because you said I am going to allow myself to be wrong and to test both directions. Whilst this might sound like cheating because you are looking both ways, the thing to remember is that when you test with a two-tailed test, it is harder to find an effect because your cut-offs are larger as to what would be determined significant. But going back to the question - as we are using pre-registration it is fine to state either a one-tailed test or a two-tailed test as you are stating in advance what you are doing. Again just try to justify the decisions you make.
+
+### When we are working with power should we use two.sided, greater or lesser?
+
+This depends on how you plan to run your analysis. If you plan a one-tailed test then you would use greater or lesser depending on the direction you hypothesise. If you plan a two-tailed test then you would use two.sided. Please however do make sure that these match. If you argue for a one-tailed test in your writing but run a two-tailed test in your code then there is a mismatch here that will affect your outcome.
+
+### Should we state the null as well as the alternative hypothess?
+
+First just to clarify - alternative hypothesis is basically the hypothesis that is not the null regardless of whether you are stating a direction or no direction. Back to the question - no as this would really just use up words needlessly. Again it isn't wrong in a paper to state both the null and the alternative, it just isn't needed. Most papers will state the alternative as once you know the alternative then you know the null - the null just says there is no difference or no relationship etc so it doesn't need explicitly stated if you explicitly state the alternative hypothesis.
+
+### If we have more than one hypothesis can we number them such as H1, H2? 
+
+So actually this is bad practice for a number of reasons and we would discourage you from doing so. You will see people do it in papers but really it is a result of poor editing more often than not.  One reason not to do it are that H1 is the statistical abbreviation of the alternative hypothesis (H0 is the null). There is no H2 in statistics and having H1, H2 is really confusing for anyone that knows this. Another reason not to do this is that it likely means that you have used a bullet point somewhere, labeling the two hypotheses, and that is not good writing.
+
+### What would be an appropriate multiple comparison correction in this study?
+
+First, if you are only running one test - as you will most likely be doing here - then a multiple comparison is not needed and you can turn it off or not state it. Multiple comparison corrections are performed to help maintain the false positive rate at around the chosen level that we say we test at  - with the field standard being alpha = .05 (1 in 20 studies). When you run more studies and analyses you actually increase the false positive rate based on the Family Wise Error Rate; meaning that the false positive rate increases and you are more likely to find a false positive. If you run multiple analyses on the same data you should correct for multiple comparisons in order to maintain the false positive rate at the required level. This becomes slightly a grey area for people when it is different analyses on the same data with some arguing that you don't need to correct and others arguing that you do need to correct. The conservative approach is to correct for multiple comparisons regardless with the two most common approaches being Holm (sometimes called Holm-Bonferroni) and Bonferroni. But just remember, if you are only running one correlation or one t-test then you would not run a multiple comparison and to state that you were would suggest you haven't really understood what it does as you wouldn't be correcting anything.
+
+### Is Holm better or Bonferroni better?
+
+Bonferroni was the standard for a long time but this is maybe  due to the fact that it is simple to do by hand and by code. Holm is argued to be as effective as Bonferroni in controlling false positives and to have greater statistical power because it has less false negatives (lower Beta; higher Power because Power = 1 - Beta). All that said, this is an incredibly difficult part of statistics to understand and for this assignment it is fine to just use either, neither or none, and try to state why if possible with citation to support.
+
+# Coding and R Markdown Decisions
+
+### Can you do a word count and spellcheck in R Markdown?
+
+Actually you can. If you have an R Markdown (.Rmd) file open in RStudio then using the menu at the top, click Edit, at the bottom of that list you will see "Check Spelling" and "Word Count". Interestingly it appears that the word count knows to ignore code inside code chunks so that is good to know. However, whilst you can do this, to be honest it can be just as easy to write the answers in Word or something and copy and paste them into R Markdown, but it is up to you. 
+
+### Can you add italics, bold and indent to R Markdown text?
+
+You actually can but you do not have to for this assignment as we have never shown that in the code. If you are interested however italics and bold are relatively easy and are based on asterisks (or whatever the plural is). *my name* in markdown will knit as my name and if you put two asterisk at the front ** and two at the end **, such as **my name** then that will knit as bold. Three asterisks at front and end will knit as italics and bold. Indent is a bit trickier and to be honest I have never tested this but this is the suggestion: https://bookdown.org/yihui/rmarkdown-cookbook/indent-text.html Again though, we dont expect that in this assignment though just to clarify but you can do it if you want to. The cheat sheet can be handy as well: https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf and sometimes a bit less intense than the cookbook.
+
+### Is the order that packages are loaded in important?
+
+Basically yes. We tend to teach that you should load the tidyverse last as it contains the majority of functions that you will use and that you will be used to using. If two packages have the same function - say two packages both have a `select()` function - the package you load in last will be the one that you use select() from. As you are more used to using functions from the tidyverse then we put that last. It is ok to not do this but it may throw up confusing errors when you think something should work but it doesn't. When one function replaces another function of the same name from a different package, we say the function has "masked" the other.
+
+### Do I have to do things specifically in the code chunks mentioned?
+
+No. The main thing is that the code knits and that it does what you need it to do in terms of data analysis. If you want to do things in a slightly different order, add code chunks, run more checks, that is totally fine, just make sure the code knits at the end! This pre-registration template is just a general space to help guide you putting your code together. The R Markdown cheatsheet and cookbook above are good references if you want to expand skills here or let the team know any questions and we can add some support. R Markdown is a great tool once you get your head round it and can even be used for doing citations and references automatically, meaning that you can write your whole report in it - if you really wanted to of course!
+
+# Word counts and citations
+
+### Is there a specific word count for each section?
+
+No. The word count of 1000 words includes all text within your responses to five questions at the start of the pre-registration form including in-text citations. However, it does not include the references or your analysis code, or the text of the questions in the template. Within each section it is up to you how you use the word count but our guidance would be that the likelihood is that the first part will probably need more than the others; this is where you lay out your main rationale for your study and hypothesis which will require you to evaluate the literature, there is a larger scope for variability in responses here, whereas the other parts are fairly direct in what you need to say, and will probably require less overall words.
+
+### Can we write 10% over and above the 1000 words?
+
+No. The 1000 words is the absolute maximum for your answer to the first five questions.
+
+### Can we put explanations into the code to save word count in the first five questions?
+
+No. All relevant information, except code, must be within the answers to the first five questions on the pre-registration.
+
+### Do we have to use citations?
+
+Yes. A key goal of pre-registration is to show that you have tried to justify your decisions as much as possible. This is in terms of the study you have decided to do as well as any analytical decisions in which there may be debate - e.g. if you specifically decide to use a different analytical approach that is not the common approach.
+
+### Do all sections need citations?
+
+Not specifically. Think about what a citation is doing. Citations add information, they give supporting evidence, and they start or continue a discussion. It might help to think about citations as part of a conversation and you are using them to give information to someone who has just stepped into the conversation and doesn't know the prior discussion (this is explained better in this paper here:[ncbi.nlm.nih.gov/pmc/articles/PMC4602011/](ncbi.nlm.nih.gov/pmc/articles/PMC4602011/)). But what this means is that at times you will need to give support to some of your claims or decisions by giving a citation.  Say for example you state that your research question is only interested in postgraduate students so you are going to remove all participants that are not postgraduates. This isn't really a discussion point so you wouldn't need a citation. If however you said, "we plan to remove participants who are over the age of 25 as they are not considered to be in Early Adulthood" then this statement would need a citation because you are showing support for the claim and the decision. In reality it can be better to cite than not cite, but that uses up space, so try to think about what you are doing with a citation and that might help.
+
+# I have more questions
+
+### What should I do if my question isn't covered here?
+
+This document is meant to help cover a number of points but it won't cover everything. If you still have questions then, by all means, please ask them on the channel and we can add them here if that would help.
+
+**End of document**
