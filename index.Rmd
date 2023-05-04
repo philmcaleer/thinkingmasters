@@ -1,6 +1,9 @@
 ---
 title: "Thinking about a Masters"
 output:
+  word_document:
+    toc: yes
+    toc_depth: '3'
   html_document:
     toc: yes
     toc_float:
@@ -9,9 +12,6 @@ output:
     number_sections: no
     theme: readable
     highlight: espresso
-  word_document:
-    toc: yes
-    toc_depth: '3'
 ---
 
 <style>
@@ -41,7 +41,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # This blog
 
-This document was last updated on `r Sys.Date()` and is a series of questions that a person might want to consider asking, or finding information about, when thinking about what Masters programme is right for them in the UK. 
+This document was last updated on `r Sys.Date()` and is a series of questions that a person might want to consider asking, or finding information about, when thinking about what Masters programme is right for them in the UK.
+
+This blog has been written and edited by Dr Phil McAleer, Dr James Bartlett, and Dr Helena Paterson (School of Psychology and Neuroscience, University of Glasgow)
 
 **Please note:** if viewing this blog on a phone, use landscape orientation rather than portrait for better functionality. In addition, you can download a word version of this blog by [clicking this link](https://philmcaleer.github.io/thinkingmasters/index.docx)
 
