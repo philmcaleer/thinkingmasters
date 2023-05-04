@@ -1,14 +1,17 @@
 ---
 title: "Thinking about a Masters"
-output: 
+output:
   html_document:
-    toc: true
+    toc: yes
     toc_float:
-      collapsed: true
+      collapsed: yes
     toc_depth: 3
-    number_sections: false
-    theme: "readable"
-    highlight: "espresso"
+    number_sections: no
+    theme: readable
+    highlight: espresso
+  word_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 <style>
@@ -40,7 +43,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This document was last updated on `r Sys.Date()` and is a series of questions that a person might want to consider asking, or finding information about, when thinking about what Masters programme is right for them in the UK. 
 
-**Please note:** if viewing this blog on a phone, use landscape orientation rather than portrait for better functionality.
+**Please note:** if viewing this blog on a phone, use landscape orientation rather than portrait for better functionality. In addition, you can download a word version of this blog by [clicking this link](https://philmcaleer.github.io/thinkingmasters/index.docx)
 
 ## What is a Masters Programme in the UK?
 
@@ -50,7 +53,7 @@ Some Masters programmes are designed to be general, such as a Masters in Researc
 
 ## PGT, PGR, MSc, MRes & PhD
 
-There is always a lot of acronyms and abbreviations involved and these can be very confusing at first. To summarise the main ones that you may come across when thinking about Psychology and related Masters:
+There is always a lot of acronyms and abbreviations involved and these can be very confusing at first. To summarise the main ones that you may come across when thinking about a Masters are:
 
 * PGT - postgraduate taught
 * PGR - postgraduate research
@@ -58,15 +61,24 @@ There is always a lot of acronyms and abbreviations involved and these can be ve
 * MSc - Masters of Science
 * PhD - Doctorate of Philosophy
 
-As Psychology is considered a science in UK Universities, a lot of the Masters programmes you might be considering will be referred to as an MSc - for example, an MSc in Research Methods of Psychological Science. More often than not, these MSc programmes are considered to be PGT - postgraduate taught - meaning that the programme has a number of modules that you have to complete, along with a dissertation (i.e. a project), just like you did in your undergraduate.
+Sticking with the example of Psychology, this is considered a science in UK Universities and as such a lot of the Masters programmes you might be considering will be referred to as an MSc - for example, an MSc in Research Methods of Psychological Science. More often than not, these MSc programmes are considered to be PGT - postgraduate taught - meaning that the programme has a number of modules that you have to complete, along with a dissertation (i.e. a project), just like you did in your undergraduate.
 
 Alternatively, some Masters will be referred to as MRes and these will commonly have no, or very few taught modules, and the whole year will be spent carrying out and writing up a dissertation. As an MRes has often no taught components it is often referred to as PGR - postgraduate by research.
 
 Finally, an MSc and an MRes can be a stepping stone towards starting a PhD (which is also considered part of PGR as it is postgraduate and research-based), but it does not have to.
 
+## Programme, Course or Module
+
+It can be confusing when looking at the prospectus of various Universities as the terminology may change and the same word may be used to mean different things at different Universities. One area that this tends to happen is in how we use the terms programme, course and module. Whilst we can't guarantee this blog will clarify this issue, we will try to use a consistent terminology to help orientate you through the information. As such, for this blog:
+
+* Programme: the overall MSc that you are applying for and looking to complete. For example, an MSc in Nutrition, an MSc in Research Methods of Clinical Psychology, or an MSc in the Science of Learning.
+* Module: the components of study that you take to complete the MSc. For example, if the programme is the MSc in Research Methods of Clinical Psychology, then you make take a module in Qualitative Research Methods, a module in Quantitative Research Methods, a module in Psychometrics etc.
+
+So that seems fairly straightforward, a programme is made up of a collection of modules, right? Right! Except that some Universities may call the programme, the course, and other Universities might call modules, the courses! Confusing we know! Ultimately, however, there will be the overall concept of the MSc - an MSc in ... - and it will be achieved through completing a series of components, and for the remainder of this blog we will refer to the concept of the MSc as the Programme, and the components as Modules. 
+
 ## What questions to ask?
 
-Hopefully you have an idea now about the different abbreviations and the differences in the types of Masters programmes. Let's assume you were thinking of applying for an MSc in a Psychology related area and you are looking at PGT courses - so ones with a large component of taught courses. What sort of questions would we recommend asking?
+Hopefully you have an idea now about the different abbreviations and the differences in the types of Masters programmes, and the difference between a programme and a module. So let's assume you were thinking of applying for an PGT MSc - i.e. ones with a large component of taught modules - what sort of questions would we recommend asking?
 
 **1. What is the divide of the dissertation as well as core and optional modules in terms of credit?**
 
@@ -82,11 +94,14 @@ As you can see, knowing how the course is divided in terms of credits can give y
 
 **2. Where can I see all the core and optional modules for the coming year?**
 
-One thing to consider...
+We all have our own interests and in some programmes you will be able to tailor your degree more towards your interests whereas in other programmes you will have less free choice. You will want to have a look at the modules that are determined as core or essential, meaning that you have to take these ones, and the modules that are determined as options. The more options that you are allowed to take, and the wider range of options that a programme has, the more you can tailor your degree to your own interests. For that reason you will want to try and see a list of all the core and optional modules on offer.
 
 **3. Where can I see the requirements for pass, distinction and merit (or the local equivalent)?**
 
+Going into any programme you will want to know what do you need to do to achieve the MSc. For some, completing the MSc and obtaining an overall pass is their goal, but for others they might want to achieve a certain level of pass. Often MScs use the pass levels of Distinction, Merit and Pass, with Distinction being considered the highest level, and the difference being based on the overall grade across modules and often a project or large piece of individual work. It is also essential, in any programme, to know what is the requirement to obtain a Pass, ad ultimately obtain the MSc, but it can help to know in advance what are the requirements for other levels if that is your goal. 
 **4. When will I be allocated a supervisor for my Dissertation?**
+
+Often a key part of an MSc is the Dissertation, or some large piece of individual work. This is usually completed under the guidance of a supervisor within the University where you are doing the MSc. When a student starts their Dissertation is likely to vary from programme to programme with some starting on day one of the programme and some requiring you to have reached a certain standard or completed a certain amount of modules before starting the Dissertation. Given the large amound of work involved in the Dissertation, knowing when you will be allocated a supervisor and when you will start the Dissertation itself can help give you an idea of how to plan your year.
 
 **5. How much say will I have in choosing my Dissertation supervisor?**
 
