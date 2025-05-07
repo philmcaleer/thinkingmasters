@@ -1,10 +1,8 @@
 ---
 title: "Thinking about a Masters but not sure what to ask"
 output:
-  word_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
+    google-analytics: "G-JFTXYY710V"
     toc: yes
     toc_float:
       collapsed: yes
@@ -12,6 +10,9 @@ output:
     number_sections: no
     theme: readable
     highlight: espresso
+  word_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 <style>
